@@ -1,6 +1,1 @@
-FROM scratch
-EXPOSE 80
-
-COPY http-server /
-
-CMD ["/http-server"]
+docker stop bacc79f8c7b2
