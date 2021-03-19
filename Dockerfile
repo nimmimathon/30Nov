@@ -1,2 +1,6 @@
-FROM jenkins/jenkins:lts
-EXPOSE 8082 8082
+FROM scratch
+EXPOSE 80
+
+COPY http-server /
+
+CMD ["/http-server"]
